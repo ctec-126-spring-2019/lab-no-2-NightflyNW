@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!--Scott Altom-->
+<!--CTEC 126-->
+<!--Lab2-Part1-->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +33,45 @@
 <script>
     function startThings(){
         let romanNumeral; // do not modify
-        // your code goes here
+        let userInteger = prompt ("Please enter a number between 1 and 10");
+            if (userInteger == 1) {
+                document.write ("The roman numeral for " + userInteger + " is  I");
+            }
+            else if (userInteger == 2) {
+                document.write ("The roman numeral for " + userInteger + " is  II");
+            }
+            else if (userInteger == 3) {
+                document.write ("The roman numeral for " + userInteger + " is  III");
+            }
+            else if (userInteger == 4) {
+                document.write ("The roman numeral for " + userInteger + " is  IV");
+            }
+            else if (userInteger == 5) {
+                document.write ("The roman numeral for " + userInteger + " is  V");
+            }
+            else if (userInteger == 6) {
+                document.write ("The roman numeral for " + userInteger + " is  VI");
+            }
+            else if (userInteger == 7) {
+                document.write ("The roman numeral for " + userInteger + " is  VII");
+            }
+            else if (userInteger == 8) {
+                document.write ("The roman numeral for " + userInteger + " is  VIII");
+            }
+            else if (userInteger == 9) {
+                document.write ("The roman numeral for " + userInteger + " is  IX");
+            }
+            else if (userInteger == 10) {
+                document.write ("The roman numeral for " + userInteger + " is  X");
+            }
+            else if (userInteger > 10) {
+                document.write ("You don't follow instructions well. The number you entered is larger then 10");
+            }
+            else if (userInteger < 1) {
+                document.write ("You don't follow instructions well. The number you entered is smaller then 1");
+            }
+
+
         // be sure to assign the roman numeral to the variable romanNumeral
         // it will be used to display it on the web page using the code below
 
@@ -43,3 +85,4 @@
 </script>
 </body>
 </html>
+

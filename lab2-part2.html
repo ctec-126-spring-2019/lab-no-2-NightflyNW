@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--Scott Altom-->
+<!--CTEC 126-->
+<!--Lab2-Part 2-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,9 +32,69 @@
 <script>
     function startThings(){
         let romanNumeral; // do not modify
-        // your code goes here
+    
+        let userInteger = prompt ("Please enter a number between 1 and 10");
         // be sure to assign the roman numeral to the variable romanNumeral
         // it will be used to display it on the web page using the code below
+        switch (userInteger) {
+            case '1':{
+                let message = "The roman numeral for " + userInteger + " is  I";
+                document.write(message);
+                break;
+            }
+            
+            case '2':{
+                let message = "The roman numeral for " + userInteger + " is  II";
+                document.write(message);
+                break;
+            }
+            case '3':{
+                let message = "The roman numeral for " + userInteger + " is  III";
+                document.write(message);
+                break;
+            }
+            case '4':{
+                let message = "The roman numeral for " + userInteger + " is  IV";
+                document.write(message);
+                break;
+            }
+            case '5':{
+                let message = "The roman numeral for " + userInteger + " is  V";
+                document.write(message);
+                break;
+            }
+            case '6':{
+                let message = "The roman numeral for " + userInteger + " is  VI";
+                document.write(message);
+                break;
+            }
+            case '7':{
+                let message = "The roman numeral for " + userInteger + " is  VII";
+                document.write(message);
+                break;
+            }
+
+            case '8':{
+                let message = "The roman numeral for " + userInteger + " is  VIII";
+                document.write(message);
+                break;
+            }
+            case '9':{
+                let message = "The roman numeral for " + userInteger + " is  IX";
+                document.write(message);
+                break;
+            }
+            case '10':{
+                let message = "The roman numeral for " + userInteger + " is  X";
+                document.write(message);
+                break;
+            }
+                
+            default:
+                let message = "The number you entered is not between 1 and 10";
+                document.write(message);
+                break;
+    }
 
 
 
